@@ -101,3 +101,36 @@ Por qué es "profundo": Porque utiliza muchísimas capas de cálculos (niveles).
 ![Esquema](/img/esquema.png)
 ## "He aprendido que la IA no es un bloque sólido, sino una jerarquía: la IA es el todo, el Machine Learning es la capacidad de aprender de datos, y el Deep Learning es el uso de redes neuronales profundas para tareas complejas."
 
+## Suponga que le encargan clasificar los artículos de la sección de carnicería de un supermercado. Hay docenas de productos y muy poco tiempo para clasificarlos manualmente. ¿Cómo podría utilizar la inteligencia artificial, el aprendizaje automático y el aprendizaje profundo para ayudarle?
+
+1. Nivel IA Tradicional (Basada en Reglas)
+En este nivel, tú eres el cerebro y la máquina es solo una ejecutora rápida.
+
+*Cómo funciona:* Tú programas manualmente cada regla. "Si la etiqueta dice Ternera, ponlo en la canasta A".
+
+*El problema:* Si llega un producto nuevo (como el jabalí que mencionan las imágenes) o si la etiqueta está rota, la máquina se detiene porque no tiene una regla para eso.
+
+*Uso:* Es ideal para tareas repetitivas y muy predecibles.
+
+2. Nivel Aprendizaje Automático (Machine Learning)
+Aquí la máquina empieza a ayudarte a identificar patrones basándose en datos, no solo en etiquetas de texto.
+
+*Cómo funciona:* En lugar de leer solo la etiqueta, entrenas al algoritmo dándole datos sobre el tamaño, la forma y el color. La máquina "aprende" que un trozo de carne rosado y pequeño suele ser pollo.
+
+El avance: Si cambias el empaque, la máquina todavía puede reconocer la carne por sus características físicas.
+
+*Uso:* Cuando tienes demasiados datos para escribir reglas manuales, pero aún puedes definir qué características son importantes.
+
+3. Nivel Aprendizaje Profundo (Deep Learning)
+Este es el nivel más autónomo y sofisticado, donde las redes neuronales imitan la visión humana.
+
+*Cómo funciona:* Ya no necesitas decirle a la máquina que busque "el color" o "el tamaño" (eliminación de la extracción manual de características). Tú simplemente le das miles de fotos de carnes de todo tipo.
+
+*El avance:* Las capas de la red neuronal descubren por sí solas patrones que el ojo humano quizás ignora (como la textura de la fibra muscular o el brillo de la grasa). Puede distinguir entre carne picada de vacuno y de jabalí aunque se vean casi iguales para un novato.
+
+*Uso:* Tareas complejas de visión artificial donde hay muchísima variedad de productos y poco tiempo para clasificar.
+
+|    Tecnología	| Rol del Humano	| ¿Cómo clasifica ?       |
+| IA Simple |	Programador	| "Si dice POLLO, mover a caja 1".|
+| Learning	| Instructor	| "Mira el tamaño y color para decidir".|
+| Deep Learning	|Proveedor de Datos	| "Aquí tienes 5000 fotos, aprende a distinguirlas solo".|
