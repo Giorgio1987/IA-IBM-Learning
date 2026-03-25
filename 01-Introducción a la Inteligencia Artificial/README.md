@@ -130,7 +130,139 @@ Este es el nivel más autónomo y sofisticado, donde las redes neuronales imitan
 
 *Uso:* Tareas complejas de visión artificial donde hay muchísima variedad de productos y poco tiempo para clasificar.
 
-|    Tecnología	| Rol del Humano	| ¿Cómo clasifica ?       |
-| IA Simple |	Programador	| "Si dice POLLO, mover a caja 1".|
-| Learning	| Instructor	| "Mira el tamaño y color para decidir".|
-| Deep Learning	|Proveedor de Datos	| "Aquí tienes 5000 fotos, aprende a distinguirlas solo".|
+
+
+| Tecnología  | El Rol Humano | ¿como clasifica la carne? |
+| :--- | :--- | :--- |
+| **IA SIMPLE** | **Programador**  | "Si dice POLLO, mover a caja 1".|
+| **MACHINE LEARNING** | **Instructor**  |"Mira el tamaño y color para decidir". |
+| **Deep learning** | **Proveedor de Datos**| 	"Aquí tienes 5000 fotos, aprende a distinguirlas solo". |
+
+## Análisis ;
+Los servicios de IA pueden tomar (o "ingerir") enormes cantidades de datos. Pueden aplicar cálculos matemáticos para analizar los datos, clasificándolos y organizándolos de maneras impensables hace solo unos años.
+
+## Predicción:
+Los servicios de IA pueden utilizar sus análisis de datos para realizar predicciones. Pueden, en efecto, decir: "Basándonos en esta información, es probable que ocurra esto"
+
+## Reflexión para un System Analyst
+Como futuro analista, fíjate en esto: el Deep Learning es el más potente, pero también el que más "cálculo" y datos requiere. A veces, para un supermercado pequeño, una IA simple basada en reglas de código de barras es más barata y eficiente. Saber elegir cuál usar es la verdadera habilidad profesional.
+
+# 🔮 ¿Cómo hace predicciones la IA?
+
+Una de las funciones más comunes de la IA es la **predicción**. No se trata de "adivinar" el futuro, sino de un proceso matemático basado en datos históricos y probabilidades.
+
+### 📱 Ejemplo: El Autocorrector
+Cuando escribes en tu teléfono, la IA no sabe ortografía de forma consciente; lo que hace es calcular la **probabilidad de secuencia**.
+
+1. **Análisis de Contexto:** Mira las palabras que escribiste antes.
+2. **Biblioteca de Frases:** Compara tu entrada con millones de frases reales usadas por humanos.
+3. **Sugerencia Probable:** Si escribes "Hols", la IA calcula que la distancia entre la 's' y la 'a' en el teclado es mínima y que "Hola" es una palabra de altísima frecuencia.
+
+> [!IMPORTANT]
+> La IA no **piensa**, la IA **calcula**. Representa las máquinas de cálculo más sofisticadas de la historia.
+
+---
+
+### 🚀 Otras formas de Predicción con Datos
+
+La IA utiliza patrones para anticiparse en diversos campos:
+
+| Campo | ¿Qué predice? | Basado en... |
+| :--- | :--- | :--- |
+| **Entretenimiento** | Qué película verás después. | Tu historial y el de usuarios similares. |
+| **Industria** | Cuándo se romperá una pieza. | Sensores de calor y vibración (Mantenimiento Predictivo). |
+| **Ciberseguridad** | Si una conexión es un ataque. | Patrones de tráfico inusuales o IPs sospechosas. |
+| **Comercio** | Qué productos se agotarán. | Tendencias de compra y fechas especiales. |
+
+
+
+---
+
+### ⚠️ El Factor de Error
+Las predicciones **no siempre son precisas**. Su utilidad depende de:
+* **Calidad de los datos:** Si los datos de entrenamiento tienen errores, la predicción será errónea.
+* **Contexto cambiante:** La IA puede fallar si ocurre algo totalmente nuevo que no estaba en su "biblioteca" de pasado.
+
+---
+*Apuntes del curso de IA - Enfocado en Análisis de Sistemas y Seguridad.*
+
+#                      🛠️ Aplicaciones Prácticas de la IA y Predicción
+
+La IA utiliza diferentes tecnologías para interactuar con el mundo físico y digital. Aquí resumo los tres pilares más importantes:
+
+### 1. Procesamiento de Lenguaje Natural (NLP)
+Es la capacidad de la IA para entender, interpretar y generar lenguaje humano.
+* **Cómo funciona:** Utiliza algoritmos para analizar la sintaxis y el contexto de frases (incluso si están mal escritas).
+* **Ejemplo:** Chatbots que predicen la intención de un cliente para dar horarios o estados de envío.
+* **Uso técnico:** Tokenización de palabras y análisis de sentimiento.
+
+
+
+### 2. Reconocimiento de Visión (Computer Vision)
+Permite a las máquinas "ver" y procesar información visual de imágenes o videos.
+* **Salud:** Identificación de patrones en radiografías para detectar alertas tempranas de enfermedades.
+* **Movilidad:** Lectura en tiempo real de señales de tránsito (Stop, límites de velocidad) para la conducción autónoma.
+* **Uso técnico:** Redes Neuronales Convencionales (CNN) especializadas en píxeles.
+
+
+
+### 3. Detección de Fraudes (Análisis de Comportamiento)
+Este es un punto crítico para la seguridad informática y financiera.
+* **Cómo funciona:** La IA establece una "línea base" de comportamiento normal (tus compras habituales). Cuando aparece un cargo fuera de ese patrón (ej. una compra en otro país a una hora inusual), predice que es un **robo de identidad**.
+* **Ejemplo:** Bloqueo preventivo de tarjetas de crédito ante transacciones sospechosas.
+* **Uso técnico:** Detección de anomalías y árboles de decisión.
+
+---
+
+### 💡 Conexión con mi carrera (Ciberseguridad)
+Como analista, veo que estas tres áreas se cruzan:
+- El **NLP** ayuda a detectar correos de phishing analizando el tono del texto.
+- La **Visión** se usa en biometría (reconocimiento facial) para control de acceso.
+- La **Detección de Fraudes** es la base de los modernos sistemas de detección de intrusos (IDS).
+
+---
+*Notas de estudio sobre los servicios de IA - Jorge Luis Mercado.*
+
+## La IA actual ha ido más allá de generar indicaciones para conducir, aspirar suelos o recomendar nuevas modas. Actualmente puede imitar las capacidades de la mente humana. La IA puede aprender de los ejemplos y la experiencia, reconocer objetos, entender y responder al lenguaje y resolver problemas. Aún más emocionantes son sus posibilidades de futuro. Siga leyendo para ver cómo podría evolucionar la IA en el próximo medio siglo.
+
+# 📈 La Evolución de la IA: De lo Estrecho a lo General
+
+La informática clasifica la evolución de la Inteligencia Artificial en tres niveles, basándose en su capacidad de análisis, generalización y autonomía.
+
+### 1. IA Estrecha (Narrow AI) - 2010 a 2015
+Es una IA diseñada para realizar **una sola tarea específica** de manera excelente, pero no sabe hacer nada más.
+* **Características:** Sigue reglas o patrones fijos para un solo dominio.
+* **Ejemplos:** Un filtro de spam, un sistema de recomendación de películas o el software de una fábrica de autos.
+* **Limitación:** Si sacas a esta IA de su tarea (ej. le pides al filtro de spam que juegue ajedrez), no puede funcionar.
+
+### 2. IA Amplia (Broad AI) - Actualidad (Hoy)
+Es el nivel en el que nos encontramos. Es una IA mucho más flexible y capaz de manejar múltiples tareas y grandes volúmenes de datos empresariales.
+* **Características:** Puede aprender de diferentes tipos de datos, adaptarse a nuevos contextos y trabajar de forma transversal en una organización.
+* **Impacto:** Es la IA que impulsa la transformación digital en las empresas modernas.
+* **Dato clave:** No es una sola "mente", sino sistemas interconectados que procesan información compleja.
+
+
+### 3. IA General (AGI) - Proyectada (A partir de 2050)
+Es el nivel teórico donde la máquina alcanza la **capacidad intelectual humana**.
+* **Características:** Podría razonar, planificar, aprender cualquier tarea intelectual que un humano puede hacer y tener conciencia de sí misma.
+* **Estado actual:** No existe todavía. Es el gran desafío de la investigación científica.
+
+---
+
+### 📊 Cuadro Comparativo de Evolución
+
+| Nivel | Alcance | Flexibilidad | ¿Está disponible? |
+| :--- | :--- | :--- | :---: |
+| **IA Estrecha** | Una sola tarea. | Muy baja. | ✅ Sí |
+| **IA Amplia** | Múltiples tareas/Empresas. | Alta. | ✅ Sí (Estamos aquí) |
+| **IA General** | Inteligencia Humana total. | Total. | ⏳ Futuro (2050+) |
+![ESTAMOS AQUÍ](/img/estamos.png)
+---
+
+> [!TIP]
+> **Reflexión para Sistemas:** Entender que estamos en la era de la **IA Amplia** es vital. Significa que las soluciones que diseñemos hoy deben ser escalables y capaces de integrarse con diferentes fuentes de datos, ya que la tecnología ya permite esa flexibilidad.
+
+---
+*Notas sobre la evolución tecnológica - IA de IBM SkillsBuild.*
+![SUPER](/img/super.png)
+
