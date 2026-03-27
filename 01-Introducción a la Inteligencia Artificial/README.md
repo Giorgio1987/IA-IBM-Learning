@@ -266,3 +266,124 @@ Es el nivel teórico donde la máquina alcanza la **capacidad intelectual humana
 *Notas sobre la evolución tecnológica - IA de IBM SkillsBuild.*
 ![SUPER](/img/super.png)
 
+
+
+
+## Módulo 2:  ¿Cuáles son las tres eras de la informática?
+
+## En este módulo conocerá las eras de la informática que van desde la tabulación y la programación hasta la llegada de la IA.
+
+## Objetivos del curso
+
+* * Después de completar este módulo, debería ser capaz de:
+
+* * Describir la historia de la IA, desde el pasado hasta el posible futuro
+
+# ⏳ Las Eras de la Informática: De la Tabulación a la IA
+
+Para entender dónde estamos hoy, debemos mirar atrás. La relación del ser humano con los datos ha pasado por grandes etapas evolutivas.
+
+## 1. La Era de la Tabulación (Siglo XIX - 1940s)
+Durante siglos, el problema no fue la falta de datos, sino los **"Datos Oscuros"**: información masiva, sin estructura y difícil de analizar (un "revoltijo de hechos").
+
+### 🎯 El objetivo: Tabular
+Tabular significa "cortar y trocear" los datos para darles estructura y descubrir patrones. Es pasar de una pila de papeles a una tabla organizada.
+
+### 🛠️ Hitos y Máquinas Clave:
+* **El Ábaco:** Usado hace más de 2000 años para categorizar impuestos y planificar obras como la Gran Muralla China.
+* **Máquina Diferencial (Babbage y Lovelace):** Diseñada en el siglo XIX para cálculos logarítmicos y tablas de mareas. Fue el primer concepto de computación compleja.
+* **Tarjetas Perforadas (Herman Hollerith):** Inspiradas en los billetes de tren. Permitieron procesar el Censo de EE.UU. de 1890 en tiempo récord. Este sistema fue la base de lo que más tarde sería **IBM**.
+
+> [!NOTE]
+> En esta era, las máquinas **no pensaban ni decidían**, solo ayudaban al humano a clasificar y ordenar para que el humano pudiera extraer conclusiones.
+
+---
+
+### 🌑 El concepto de "Datos Oscuros"
+Es un término que todavía usamos en sistemas. Se refiere a los **datos no estructurados**. 
+* **Ejemplo del bosque:** * *Dato:* "Hay un millón de árboles". 
+    * *Información tabulada:* "Hay 300 mil pinos a 2000 metros de altura, ideales para construcción".
+
+## 2. La Era de la Programación (1940s - Actualidad)
+
+A partir de la Segunda Guerra Mundial, el enfoque cambió radicalmente. Ya no solo queríamos ordenar datos, queríamos que las máquinas realizaran cálculos complejos mediante instrucciones variables.
+
+### 🎯 El objetivo: Programar
+Surgieron los ordenadores electrónicos capaces de ejecutar diferentes **programas**. Una misma máquina podía usarse para calcular trayectorias de artillería o para estudiar física nuclear simplemente cambiando sus instrucciones.
+
+### 🛠️ Hitos y Máquinas Clave:
+* **ENIAC:** El primer ordenador electrónico de propósito general. Fue un salto gigante: de engranajes mecánicos a válvulas de vacío y electricidad.
+* **La Carrera Espacial:** Los ordenadores programables fueron los que llevaron al ser humano a la Luna y, lo más importante, permitieron reprogramar soluciones en tiempo real para salvar la misión del **Apolo 13**.
+* **Miniaturización:** Esta era es la que puso un superordenador en tu bolsillo (tu smartphone).
+
+### 🚨 La Crisis de esta Era: La Explosión de Datos
+El problema es que hoy generamos datos a una velocidad masiva. 
+* **El límite:** Ni el superordenador más potente del mundo puede procesar todos los "datos oscuros" actuales mediante programación tradicional. 
+* **El cuello de botella:** En la programación, un humano tiene que escribir cada regla. Si hay billones de datos, es imposible escribir reglas para todo.
+
+> [!CAUTION]
+> **Crisis de la Programación:** Estamos generando tanta información que la informática basada solo en reglas humanas se enfrenta a un colapso por saturación. Aquí es donde necesitamos que la máquina aprenda sola.
+
+## 3. La Era de la Inteligencia Artificial (Sistemas Cognitivos)
+
+Esta era surge como la solución a la "crisis de datos" de la era de la programación. Ya no esperamos que un humano escriba cada regla; ahora diseñamos sistemas que pueden **aprender, razonar e interactuar**.
+
+### 🎯 El objetivo: Comprender y Predecir
+A diferencia de la programación tradicional (donde la máquina es una calculadora obediente), en esta era buscamos que la tecnología procese los **Datos Oscuros** para encontrar sentido por sí misma.
+
+### 🛠️ Hitos en la Evolución de la IA:
+* **De la Filosofía a la Electrónica:** La IA comenzó como una pregunta filosófica ("¿puede una máquina pensar?") antes de convertirse en una disciplina técnica.
+* **El salto al Aprendizaje:** Pasamos de sistemas expertos (reglas rígidas) al **Machine Learning** (aprendizaje por datos) y finalmente al **Deep Learning** (redes neuronales).
+* **IA Generativa:** La capacidad actual de crear contenido, código y soluciones complejas a partir de instrucciones en lenguaje natural.
+
+### 💡 ¿Por qué es distinta a las eras anteriores?
+1. **No es determinista:** En la era de la programación, 2+2 siempre es 4. En la era de la IA, el sistema estima probabilidades (ej: "Hay un 99% de probabilidad de que este correo sea Spam").
+2. **Escalabilidad:** Puede procesar volúmenes de datos que a un equipo de programadores le tomaría siglos organizar manualmente.
+
+> [!TIP]
+> **Reflexión Final:** Si la Era de la Tabulación nos dio **orden** y la Era de la Programación nos dio **automatización**, la Era de la IA nos está dando **discernimiento**.
+![Breve historia](/img/historia.png)
+
+# ❄️ Del Invierno al Verano: La Montaña Rusa de la IA
+
+La historia de la IA no ha sido un camino lineal, sino una serie de ciclos de grandes expectativas seguidos de caídas por limitaciones técnicas.
+
+## 1. El Nacimiento (Verano de 1956)
+* **Hito:** Conferencia de Dartmouth.
+* **Protagonistas:** John McCarthy y Marvin Minsky.
+* **La Gran Promesa:** "Cualquier característica de la inteligencia puede ser simulada por una máquina". Se creía que en 20 años la IA sería total.
+
+## 2. El Primer Invierno (1970s)
+El optimismo chocó con la realidad física de la época.
+* **Potencia de cálculo limitada:** Para imitar una retina humana se necesitaban millones de instrucciones por segundo; las computadoras de 1976 solo procesaban cien.
+* **Almacenamiento insuficiente:** No existían bases de datos capaces de guardar el "sentido común" de un niño de 2 años.
+* **Resultado:** Los fondos se agotaron y la investigación se detuvo.
+
+## 3. El Segundo Invierno (Finales de 1980s)
+Hubo un breve renacimiento con los **Sistemas Expertos** (basados en reglas rígidas), pero:
+* **El auge de la PC:** Las computadoras de escritorio de Apple e IBM superaron a los gigantescos mainframes corporativos.
+* **Costo vs. Beneficio:** Los sistemas eran caros y difíciles de mantener.
+* **Resultado:** Más de 300 empresas de IA quebraron.
+
+
+
+## 4. El Descongelamiento y la Era Actual (1990s - Hoy)
+A mediados de los 90, la capacidad de procesamiento finalmente alcanzó a la teoría.
+
+| Año | Hito Histórico | Importancia |
+| :--- | :--- | :--- |
+| **1997** | **Deep Blue (IBM)** | Vence al campeón mundial de ajedrez (Gary Kasparov). |
+| **2005** | **Stanford Robot** | Conducción autónoma por 131 millas de desierto. |
+| **2011** | **Watson (IBM)** | Gana el juego *Jeopardy!* procesando lenguaje natural complejo. |
+
+### ☀️ El Pronóstico Actual
+Hoy la IA es omnipresente porque finalmente tenemos:
+1. **Big Data:** Datos masivos para entrenar modelos.
+2. **Cloud Computing:** Capacidad de proceso casi ilimitada.
+3. **Algoritmos Avanzados:** Especialmente en Deep Learning.
+
+---
+> [!IMPORTANT]
+> **Lección para Analistas:** La IA actual no es "nueva"; muchas de las teorías son de 1956. Lo que cambió fue nuestra capacidad técnica para ejecutarlas. Estamos en un crecimiento exponencial donde los "inviernos" parecen haber quedado atrás.
+---
+*Fin de la sección: Historia y Eras de la Informática.*
