@@ -387,3 +387,94 @@ Hoy la IA es omnipresente porque finalmente tenemos:
 > **Lección para Analistas:** La IA actual no es "nueva"; muchas de las teorías son de 1956. Lo que cambió fue nuestra capacidad técnica para ejecutarlas. Estamos en un crecimiento exponencial donde los "inviernos" parecen haber quedado atrás.
 ---
 *Fin de la sección: Historia y Eras de la Informática.*
+
+## Módulo 3
+## Datos estructurados, semiestructurados o no estructurados: ¿en qué se diferencian?
+
+# 📊 Clasificación de Datos: Estructurados, Semiestructurados y No Estructurados
+
+Para que una IA o un sistema informático funcione, primero debemos entender qué tipo de "materia prima" (datos) le estamos entregando.
+
+### 1. Datos Estructurados (Cuantitativos)
+Es información altamente organizada que encaja perfectamente en tablas.
+* **Formato:** Filas y columnas (SQL, Excel, Google Sheets).
+* **Ejemplos:** Nombres, fechas, números de tarjeta de crédito, stock de productos.
+* **Ventaja:** Muy fácil de buscar y analizar con herramientas convencionales.
+
+### 2. Datos No Estructurados o "Datos Oscuros" (Cualitativos)
+Es información que carece de un formato predefinido y no se puede guardar en una tabla simple.
+* **Formato:** Archivos binarios o texto libre.
+* **Ejemplos:** Imágenes, audios, PDFs, historiales médicos, videos, comentarios en redes sociales.
+* **Desafío:** Son difíciles de procesar sin IA. Representan el 80% de los datos generados hoy en día.
+
+### 3. Datos Semiestructurados (El Puente)
+No tienen un modelo rígido de filas y columnas, pero contienen **metadatos** (etiquetas) que ayudan a organizarlos.
+* **Formato:** JSON, XML, correos electrónicos (tienen campos como "Para", "De", "Fecha").
+* **Ejemplo de Redes Sociales:** Un video es dato *no estructurado*, pero sus *hashtags*, ubicación y fecha son datos *estructurados* que lo acompañan.
+* **Ventaja:** Son más fáciles de almacenar y buscar que los no estructurados gracias a los metadatos.
+
+
+
+---
+
+### ⚖️ Cuadro Comparativo para Sistemas
+
+| Característica | Estructurados | Semiestructurados | No Estructurados |
+| :--- | :--- | :--- | :--- |
+| **Formato** | Tablas / Relacional | Etiquetas / Metadatos | Sin formato fijo |
+| **Almacenamiento** | Bases de datos SQL | Archivos JSON/XML | Data Lakes / NoSQL |
+| **Facilidad de Análisis** | Alta | Media | Baja (Requiere IA) |
+| **Flexibilidad** | Baja (Esquema rígido) | Alta | Total |
+
+---
+
+### 🛡️ Visión desde la Ciberseguridad
+Como futuro analista, debes saber que:
+1. **Datos Estructurados:** Son más fáciles de proteger con permisos de base de datos, pero son el objetivo principal de ataques de Inyección SQL.
+2. **Datos No Estructurados:** Son un peligro oculto. Un PDF o una imagen pueden contener **malware** o información sensible (como DNI en fotos) que los escáneres tradicionales a veces no detectan.
+
+# 💡 Un consejo para tu estudio:
+Mencionaste que el video de una red social es semiestructurado por sus hashtags. Esto es lo que permite que cuando buscas #Tecnología, la IA encuentre tu video de "TecnoGio" entre millones de otros videos. Los metadatos son la clave que saca a los datos de la "oscuridad".
+
+## La importancia de los datos no estructurados está aumentando rápidamente. Pronósticos recientes indican que el 95 % de las empresas dan prioridad a la gestión de datos no estructurados.
+![EJEMPLO](/img/ejemplo.png)
+![EJEMPLO 2 ](/img/ejemplo2.png)
+
+## 1. ¿Por qué es el ejemplo correcto?
+Para que un dato sea estructurado, debe cumplir con tres características que este ejemplo tiene a la perfección:
+
+Esquema definido: Una reserva de hotel siempre tiene los mismos campos: ID de reserva, Fecha de entrada, Fecha de salida, Número de habitación y Precio. No hay sorpresas.
+
+Fácilmente indexable: Puedes buscar rápidamente cuántas personas entran un lunes o cuántas habitaciones quedan libres. Un software de base de datos (como SQL) puede "leer" esto en milisegundos.
+
+Cuantitativo: Se trata de valores que se pueden contar, sumar y organizar en filas y columnas sin ambigüedad.
+
+## 2. ¿Por qué los otros NO lo son?
+Analicemos los demás desde una perspectiva técnica para que te sirva en tus apuntes:
+
+Datos de vigilancia (No estructurados): Es video o imágenes en bruto. Una computadora no "sabe" qué hay en el video a menos que una IA lo analice. No puedes meter un video de 2 horas en una celda de Excel y pedirle que te "sume" cuántas personas pasaron.
+
+Archivos de vídeo (No estructurados): Al igual que la vigilancia, son una secuencia de bits pesados. Son píxeles y ondas de sonido, no filas de datos.
+
+Aplicaciones de productividad (Semiestructurados / Mezclados): Una app como Notion o Evernote contiene texto libre, imágenes pegadas y listas. Aunque la app esté organizada, el contenido dentro es muy variado y no sigue un esquema rígido.
+
+## 💡 Un dato para tu proyecto "Hotel Lab"
+Como se menciona en mi perfil que desarrolle "Hotel Lab" (esa app vulnerable en PHP y MySQL).
+
+Cuando defini la tabla reservas en MySQL con campos tipo INT para el ID y DATE para la fecha, estaba creando la estructura perfecta.
+
+Esa es la razón por la que los ataques de SQL Injection son tan peligrosos en estos datos: porque como el dato está tan bien "estructurado", un atacante sabe exactamente dónde buscar la información si logra romper la seguridad.
+
+## "Los datos estructurados son como un formulario de hotel: cada respuesta tiene su casilla específica. Los datos no estructurados son como una foto de la fachada del hotel: contienen mucha información, pero la máquina necesita un proceso extra (IA) para entender qué hay dentro."
+
+## ¿Se pregunta por qué es importante? ¿Por qué querría alguien buscar entre una montaña de datos, como por ejemplo en publicaciones en redes sociales? 
+
+## He aquí algunas de las muchas personas y organizaciones que podrían querer hacerlo:
+
+## Un diseñador de zapatillas en busca de nuevas tendencias
+## Gobiernos en busca de posibles terroristas
+## Expertos en pandemias que intentan anticiparse a brotes de enfermedades
+## Instituciones financieras que se preparan para los buenos tiempos o para una recesión.
+
+# Según los expertos, alrededor del 80 % de todos los datos del mundo actual son no estructurados. Contienen tantas variables y cambian tan rápidamente que ningún programa informático convencional puede aprender mucho de ellos.
+
