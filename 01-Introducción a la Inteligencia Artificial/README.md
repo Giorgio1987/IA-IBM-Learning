@@ -1200,3 +1200,15 @@ He completado el curso de formación en modelos de lenguaje de IA, adquiriendo h
 > **Estado:** Módulo Completado.
 > **Próximo Paso:** Aplicar estas técnicas en la configuración de laboratorios en VirtualBox y en la optimización de mis canales "TecnoGio" y "Rotando Com Giorgio".
 
+## 🏅 Certificación Oficial: Getting Started with Artificial Intelligence (IBM)
+
+He obtenido la certificación oficial de **IBM SkillsBuild** que valida mis competencias técnicas en Inteligencia Artificial y LLMs.
+
+### 🛠️ Habilidades Certificadas:
+- **IA Generativa y LLMs:** Comprensión de modelos fundacionales y arquitecturas Transformer.
+- **Prompt Engineering:** Optimización de solicitudes para mejorar la precisión de las respuestas de la IA.
+- **Machine Learning:** Conocimiento sobre entrenamiento de modelos, parámetros y fine-tuning.
+- **Aplicaciones:** Implementación de soluciones de IA en desarrollo de software y análisis de datos.
+
+> [!TIP]
+> Puedes verificar la autenticidad de mi insignia en la plataforma **Credly** para validar mis conocimientos en Redes Neuronales y Procesamiento de Lenguaje Natural.
