@@ -1151,3 +1151,52 @@ Lo que hace destacar a ChatGPT es su **Capacidad Conversacional**:
 
 > [!TIP]
 > Para un **Systems Analyst**, la clave no es solo que la IA responda, sino aprender a diseñar "solicitudes" (prompts) precisas que reduzcan la ambigüedad y maximicen la utilidad del output técnico.
+# ✍️ El Arte de la Escritura de Solicitudes (Prompt Engineering)
+
+Interactuar con una IA es una forma de comunicación técnica. La calidad de la salida (output) es directamente proporcional a la calidad de la entrada (input).
+
+### 🔍 ¿Por qué fallan los modelos?
+- **Falta de Contexto:** La IA no puede adivinar lo que no se le dice.
+- **Ambigüedad:** Instrucciones vagas generan respuestas genéricas.
+- **Datos Incompletos:** Sin los parámetros correctos, la IA rellena los huecos con información probabilística (posibles errores).
+
+### 💡 Reglas de Oro para un Analista:
+1. **Divide y Vencerás:** No satures una sola solicitud; usa la memoria del chat para avanzar paso a paso.
+2. **Define el Rol:** Dile a la IA quién debe ser (ej: "Actúa como un experto en seguridad informática").
+3. **Establece el Formato:** Especifica si quieres una tabla, una lista, código Python o un resumen ejecutivo.
+
+> [!IMPORTANT]
+> En **Ciberseguridad**, la precisión es todo. Saber redactar solicitudes claras permite usar la IA para auditar código o analizar vulnerabilidades sin dejar margen a interpretaciones erróneas que podrían comprometer un sistema.
+
+# 🎯 Reglas de Oro para Solicitudes (Prompts) Efectivas
+
+Como Analista, la precisión en la comunicación con la IA es tan importante como la precisión en el código.
+
+### 🟢 Checklist de Éxito:
+- [ ] **Específico:** ¿He definido claramente la tarea y el contexto?
+- [ ] **Conciso:** ¿He eliminado información irrelevante?
+- [ ] **Formateado:** ¿He pedido la salida en el formato que necesito (JSON, Markdown, Tabla)?
+- [ ] **Revisado:** ¿He comprobado la ortografía para evitar ambigüedades?
+
+### 🔴 Errores a Evitar:
+- **El "Prompt Omnibús":** Evitar solicitudes que intentan resolver 5 problemas a la vez.
+- **Vaguedad Extrema:** Evitar términos generales como "haz algo sobre redes".
+- **Falta de Iteración:** No te conformes con la primera respuesta; usa la memoria del chat para refinar el resultado.
+
+> [!TIP]
+> **Técnica de Refinamiento:** Si la IA te da una respuesta muy general, no empieces de cero. Di: *"Me gusta el punto 2, pero desarróllalo más enfocado a la seguridad de servidores Windows Server 2022"*.
+
+# 🎓 Conclusión: El Arte de las Solicitudes (Prompt Engineering)
+
+He completado el curso de formación en modelos de lenguaje de IA, adquiriendo habilidades críticas para la interacción hombre-máquina en entornos profesionales.
+
+### 🚀 Logros del Curso:
+- **Comprensión Técnica:** Diferenciación entre Modelos de Lenguaje (LLMs) y Modelos Fundacionales.
+- **Arquitectura:** Conocimiento del funcionamiento de los **Transformers** y el procesamiento de datos masivos.
+- **Ingeniería de Prompts:** Dominio de las reglas para redactar solicitudes que minimicen las alucinaciones y maximicen la precisión técnica.
+- **Aplicación Práctica:** Capacidad para usar la IA en tareas de Ciberseguridad (auditoría de código, análisis de logs) y Creación de Contenido (scripts para YouTube).
+
+> [!CHECK]
+> **Estado:** Módulo Completado.
+> **Próximo Paso:** Aplicar estas técnicas en la configuración de laboratorios en VirtualBox y en la optimización de mis canales "TecnoGio" y "Rotando Com Giorgio".
+
