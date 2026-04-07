@@ -948,5 +948,62 @@ La fusión de la AGI con el IoT creará un mundo donde los objetos no solo está
 En un "Planeta Instrumentalizado", un fallo de seguridad no es solo la pérdida de datos, es el riesgo físico de la infraestructura global. El analista del futuro será el guardián del nexo entre el cerebro digital y el mundo físico.
 
 > "Pasaremos de herramientas que usamos a socios en los que confiamos."
-```
+``
+## Principales puntos que recordar
+1
+La inteligencia artificial se refiere a la capacidad de una máquina para aprender patrones y hacer predicciones. La IA no sustituye a las decisiones humanas, sino que añade valor al juicio humano.
+
+2
+La IA realiza tareas sin intervención humana y completa tareas repetitivas para los humanos, mientras que la inteligencia aumentada ayuda a los humanos a tomar decisiones finales después de analizar datos, informes y otros tipos de datos.
+
+3
+Los tres niveles de IA son: IA estrecha, IA amplia e IA general. La IA estrecha y la IA amplia están disponibles actualmente. De hecho, la mayoría de las empresas utilizan IA amplia. La IA general no estará disponible hasta algún momento en el futuro.
+
+4
+La historia de la IA ha pasado por la Era de la tabulación, la Era de la programación y la Era de la IA.
+
+5
+Los datos pueden ser estructurados, no estructurados o semiestructurados.
+
+Los datos estructurados son cuantitativos y están bien organizados, como una hoja de cálculo de datos. 
+Los datos no estructurados son datos cualitativos que no tienen estructura, como los historiales médicos. Cada vez tiene más valor para las empresas.  
+Y los datos semiestructurados combinan características de los datos estructurados y de los no estructurados. Utilizan metadatos.
+6
+Un 80 % aproximadamente de los datos del mundo actual son no estructurados.
+
+
+7
+El aprendizaje automático tiene ventajas en comparación con los ordenadores programables. El aprendizaje automático puede predecir y aprende.
+
+8
+El aprendizaje automático utiliza tres métodos.
+
+El aprendizaje supervisado requiere suficientes ejemplos para hacer predicciones precisas
+El aprendizaje no supervisado requiere grandes cantidades de información para que la máquina pueda formular una pregunta y luego averiguar cómo responderla por sí mismo.
+El aprendizaje de refuerzo requiere el proceso de ensayo y error.
+9
+Con la IA en todas partes, se introducirá en todos los sectores, desde las finanzas a la educación, pasando por la sanidad.
+
+10
+La IA puede aumentar la productividad, crear nuevas oportunidades, proporcionar conocimientos más profundos y permitir la personalización.
+
+## 📚 Recursos y Referencias para Profundizar
+
+Si deseas explorar los conceptos técnicos de este curso con mayor detalle, te recomiendo los siguientes materiales especializados:
+
+### 🤖 Fundamentos y Evolución de la IA
+* [**¿Qué es la Inteligencia Artificial (IA)?**](https://www.ibm.com/es-es/topics/artificial-intelligence) – Una mirada detallada de **IBM** sobre los tipos de IA, su historia desde Dartmouth y las tendencias futuras.
+* [**Distinguir entre IA Estrecha, IA General y Súper IA**](https://medium.com/) – Un manual esencial de **Medium** para entender los niveles de capacidad cognitiva de las máquinas.
+* [**¿Qué es la IA Generativa?**](https://www.ibm.com/es-es/topics/generative-ai) – Introducción de **IBM Research** sobre los modelos que crean contenido nuevo y su arquitectura interna.
+
+### 📊 Gestión y Análisis de Datos
+* [**Datos Estructurados vs. No Estructurados**](https://www.ibm.com/es-es/blog/structured-vs-unstructured-data/) – Comparativa técnica de **IBM Cloud** sobre los pros, contras y casos de uso de cada tipo de información (incluyendo los "Datos Oscuros").
+
+### ⚖️ Ética, Decisión y Sostenibilidad
+* [**Humanos vs. IA: ¿Quién toma las mejores decisiones?**](https://www.ibm.com/blog/ai-vs-human-decision-making/) – El Maestro Inventor de IBM, **Martin Keene**, analiza la alianza entre la predicción algorítmica y el juicio humano.
+* [**¿Puede la IA contribuir al cambio climático?**](https://www.youtube.com/) – Video de **Stacey Gifford (IBM Research)** sobre el uso de IA para el desarrollo de materiales sostenibles y la protección del planeta.
+
+---
+> [!TIP]
+> Estos recursos son fundamentales para entender el rol del **Systems Analyst** en la implementación de soluciones de IA éticas y eficientes.
 
