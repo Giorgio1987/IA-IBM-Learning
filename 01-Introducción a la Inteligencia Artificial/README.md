@@ -1006,4 +1006,148 @@ Si deseas explorar los conceptos técnicos de este curso con mayor detalle, te r
 ---
 > [!TIP]
 > Estos recursos son fundamentales para entender el rol del **Systems Analyst** en la implementación de soluciones de IA éticas y eficientes.
+## --------------------------------------------------------------------------------------------##
 
+## 📚 Objetivos del Módulo: LLMs y Transformers
+1. Definir los Grandes Modelos de Lenguaje (LLMs)
+Un LLM es un tipo de Inteligencia Artificial entrenada con cantidades masivas de texto (libros, artículos, código de programación) para comprender, generar y predecir el lenguaje humano.
+
+No solo repiten palabras: Entienden el contexto y la semántica (el significado) detrás de las frases.
+
+Escala: Se llaman "Grandes" porque tienen miles de millones de parámetros (conexiones internas) que les permiten manejar una complejidad asombrosa.
+
+2. Conceptos Clave: Los Transformers
+Esta es la arquitectura que lo cambió todo en 2017. Antes, la IA leía palabra por palabra de izquierda a derecha. Los Transformers introdujeron el concepto de "Atención" (Attention Mechanism).
+
+Atención: Permite al modelo mirar toda una oración al mismo tiempo e identificar qué palabras son más importantes para entender el mensaje.
+
+Procesamiento en paralelo: A diferencia de modelos antiguos, los Transformers procesan los datos mucho más rápido, lo que permite entrenarlos con casi todo el internet.
+
+3. Aplicaciones Comunes
+Como Systems Analyst, verás que los LLMs no son solo para chatear; son herramientas de productividad profunda:
+
+Generación de Código: Ayudan a escribir scripts en Python o COBOL (muy útil para lo que estás estudiando).
+
+Resumen y Extracción: Convertir 50 páginas de logs de seguridad o contratos legales en un resumen de 5 puntos.
+
+Traducción Avanzada: No palabra por palabra, sino adaptando el tono y el modismo cultural.
+
+Análisis de Sentimiento: Determinar si miles de comentarios en un video de YouTube son positivos o negativos automáticamente.
+
+
+# 🤖 Modelos de Lenguaje Extensos (LLM) y Transformers
+
+Los LLMs representan la cima actual de la IA en el procesamiento del lenguaje natural (NLP).
+
+### 🧠 ¿Qué es un LLM?
+Es un modelo de aprendizaje profundo entrenado con petabytes de datos textuales. Su objetivo principal es la **predicción del siguiente token** (palabra o fragmento) basándose en el contexto previo.
+
+### ⚡ La Revolución del Transformer
+La arquitectura **Transformer** es el motor de modelos como GPT, Claude o Gemini. 
+- **Mecanismo de Atención:** Permite que la IA comprenda la relación entre palabras distantes en un mismo texto (contexto global).
+- **Eficiencia:** Permite el entrenamiento masivo a una escala que antes era imposible.
+
+### 🛠️ Casos de Uso en Ingeniería de Sistemas:
+1. **Asistencia en Programación:** Autocompletado de código y depuración de errores.
+2. **Auditoría Documental:** Análisis rápido de manuales técnicos y normativas de seguridad.
+3. **Interfaces Naturales:** Creación de bots que entienden instrucciones complejas de los usuarios.
+
+> [!TIP]
+> **Dato para Cybersecurity:** Los LLMs pueden usarse para analizar el código fuente de una aplicación y encontrar vulnerabilidades (como desbordamientos de búfer) de manera mucho más rápida que un humano.
+
+🏗️ ¿Qué hace a un LLM "Grande", "Lenguaje" y "Modelo"?
+El texto de IBM desglosa estas siglas de una forma muy lógica para un perfil técnico:
+
+Large (Grande): No se refiere al tamaño del archivo en disco, sino a la escala de los parámetros (las variables internas que el modelo ajusta durante el entrenamiento). Estos miles de millones de parámetros le permiten captar matices, sarcasmo y contextos complejos.
+
+Language (Lenguaje): Su "materia prima" y su "producto" es el lenguaje humano. Están diseñados para predecir qué palabra sigue a otra de forma que suene natural.
+
+Model (Modelo): Es el motor matemático. Son algoritmos y estructuras de datos (redes neuronales) que procesan la entrada (input) para generar una salida (output).
+
+💎 El concepto de "Modelos Fundacionales"
+Esta es la verdadera revolución. Antes, si querías un traductor, entrenabas un modelo de traducción. Si querías un resumen, entrenabas otro de resumen. Era caro y lento.
+
+Enfoque Antiguo: 1 Tarea = 1 Modelo específico.
+
+Enfoque de LLM (Modelo Fundacional): 1 Modelo Gigante = Infinitas tareas.
+
+Un LLM se entrena una vez con casi todo el texto disponible en internet y luego, esa "base" (foundation) puede resolver tareas de clasificación, traducción, programación o generación de ideas sin necesidad de ser reentrenado desde cero para cada una.
+
+# 📘 Definición y Estructura de los LLMs
+
+Los LLMs no son solo chatbots; son una categoría de **Modelos Fundacionales** que han transformado el procesamiento del lenguaje natural (NLP).
+
+### 🔍 Desglose del Término:
+- **Grande:** Escala masiva de datos y parámetros (billones).
+- **Lenguaje:** Especialización en comunicación humana y generación de contenido.
+- **Modelo:** Algoritmos de redes neuronales (principalmente Transformers).
+
+### 🚀 El Cambio de Paradigma:
+Pasamos de construir modelos pequeños para tareas individuales a utilizar **Modelos Fundacionales**. 
+
+**Ventajas para el Analista de Sistemas:**
+1. **Reducción de Costos:** No hay que entrenar un modelo desde cero para cada necesidad de la empresa.
+2. **Versatilidad:** Un mismo LLM puede auditar logs de seguridad, redactar correos y escribir scripts en COBOL o Python.
+3. **Comprensión (NLU):** Mayor capacidad para entender la intención del usuario, no solo palabras clave.
+
+> [!IMPORTANT]
+> Los LLMs son la base de la **IA Generativa**, pero su poder real reside en su capacidad de **NLU (Comprensión)** y **NLP (Procesamiento)** avanzados.
+
+## 💡 Un dato para tu formación en Ciberseguridad
+IBM menciona que los LLMs mejoran las capacidades de NLU (Natural Language Understanding). En ciberseguridad, esto es vital para analizar ataques de Phishing o Ingeniería Social. Un LLM puede detectar inconsistencias en el tono o lenguaje de un correo malicioso mucho mejor que un filtro basado en reglas fijas.
+
+# ⚙️ ¿Cómo funciona un LLM por dentro?
+
+Un LLM es la combinación de tres pilares fundamentales: **Datos Masivos + Arquitectura Transformer + Entrenamiento Iterativo**.
+
+### 🛠️ El Proceso de Aprendizaje:
+1. **Fase de Base:** El modelo procesa petabytes de datos no etiquetados para entender la estructura del lenguaje.
+2. **Ajuste de Parámetros:** Mediante cálculo probabilístico, ajusta billones de variables para mejorar sus predicciones de "siguiente palabra".
+3. **Fine-Tuning:** Especialización del modelo para dominios específicos (Legal, Médico, Técnico).
+
+### 💡 Concepto Clave: Transformers
+A diferencia de modelos antiguos, el **Transformer** puede mirar una frase completa a la vez, entendiendo el contexto de cada palabra en relación con las demás.
+
+> [!TIP]
+>  (Systems Analyst): En ciberseguridad, un LLM "fine-tuneado" puede leer miles de líneas de código y predecir dónde es más probable que exista un desbordamiento de búfer basándose en patrones aprendidos.
+
+## 🧩 Resumen: Modelos de Lenguaje Extensos (LLMs)
+
+He finalizado el estudio de los LLMs como **Modelos Fundacionales** capaces de transformar el procesamiento del lenguaje natural.
+
+### ✅ Puntos Clave Aprendidos:
+- [cite_start]**Naturaleza:** Modelos entrenados con petabytes de datos para predecir y generar lenguaje natural[cite: 14, 16].
+- [cite_start]**Motor Técnico:** Uso de la arquitectura **Transformer** para lograr una comprensión contextual global[cite: 28].
+- [cite_start]**Versatilidad:** Un solo modelo puede realizar tareas que antes requerían múltiples sistemas especializados (Traducción, Resumen, Coding)[cite: 3, 42].
+
+> [!TIP]
+> [cite_start]Como Analista, entiendo que los LLMs no son solo generadores de texto, sino potentes motores de **NLU (Comprensión de Lenguaje)** que pueden integrarse en flujos de trabajo empresariales para aumentar la productividad[cite: 44, 48].
+
+### 🧠 Profundizando en LLMs y Transformers
+
+Para explorar los conceptos técnicos de este módulo con mayor detalle, te recomiendo los siguientes materiales especializados:
+
+* [cite_start][**¿Qué son los Modelos de Lenguaje Extensos (LLMs)?**](https://www.ibm.com/es-es/topics/large-language-models) – Un resumen detallado sobre la naturaleza de estos modelos, su escala en parámetros y sus diversos casos de uso en la industria[cite: 1, 10].
+* [cite_start][**¿Qué es un modelo Transformer?**](https://www.ibm.com/es-es/topics/transformer-model) – Una introducción técnica a la arquitectura de red neuronal que permite el procesamiento paralelo y el revolucionario "mecanismo de atención"[cite: 28, 32].
+* [cite_start][**Riesgos de los Modelos de Lenguaje Extensos (LLM)**](https://www.youtube.com/) – En este video, el experto de IBM **Martin Keen** explica qué son las "alucinaciones", por qué ocurren y qué pasos podemos tomar para minimizar su aparición en entornos productivos[cite: 3, 50].
+
+---
+> [!IMPORTANT]
+> **Nota de Seguridad y Análisis:** Como Systems Analyst y estudiante de Cybersecurity, el recurso sobre los riesgos y alucinaciones de los LLMs es vital. [cite_start]Comprender que estos modelos ajustan parámetros para predecir la probabilidad de la siguiente palabra (y no necesariamente la verdad absoluta) es el primer paso para implementar soluciones de IA seguras[cite: 35, 37].
+
+# 💬 ¿Qué es un Modelo de Lenguaje de IA?
+
+Un modelo de lenguaje es una tecnología de IA entrenada para procesar y generar texto humano mediante algoritmos de aprendizaje automático.
+
+### 🌟 Capacidades Principales:
+- **Comprensión Natural:** Interpreta el contexto y la intención detrás de las palabras.
+- **Versatilidad de Tareas:** Traducción, resumen, análisis de sentimiento y generación de código.
+- **Coherencia:** Modelos avanzados (como GPT) producen textos altamente naturales y lógicos.
+
+### 🔄 La Diferencia de ChatGPT:
+Lo que hace destacar a ChatGPT es su **Capacidad Conversacional**:
+1. **Contexto:** Mantiene el hilo de la charla recordando interacciones previas.
+2. **Refinamiento:** Permite ajustar las respuestas mediante nuevas solicitudes (prompts).
+
+> [!TIP]
+> Para un **Systems Analyst**, la clave no es solo que la IA responda, sino aprender a diseñar "solicitudes" (prompts) precisas que reduzcan la ambigüedad y maximicen la utilidad del output técnico.
